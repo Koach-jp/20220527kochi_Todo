@@ -1,0 +1,14 @@
+html {
+  font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", Meiryo, sans-serif;
+}
+
+body {
+  background-color: #2d197c;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

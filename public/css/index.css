@@ -1,0 +1,90 @@
+.content__box {
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form.create {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox {
+  border: rgb(221, 221, 221) solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+}
+
+.textbox.create {
+  padding: 8px;
+  font-size: 18px;
+}
+
+.todolist {
+  width: 100%;
+  text-align: center;
+}
+
+.todolist tr {
+  height: 50px;
+}
+
+.todolist th {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.todolist td {
+  font-size: 17px;
+}
+
+.textbox.update {
+  font-size: 16px;
+}
+
+.todolist tr td:first-of-type {
+  width: fit-content;
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: white;
+  height: 40px;
+  width: 60px;
+  font-size: 13px;
+}
+
+.btn.create {
+  border-color: #dc70fa;
+  color: #dc70fa;
+}
+
+.btn.update {
+  border-color: #fa9770;
+  color: #fa9770;
+}
+
+.btn.delete {
+  border-color: #71fadc;
+  color: #71fadc;
+}
+
+.no-task {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
