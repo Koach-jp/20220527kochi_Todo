@@ -18,7 +18,7 @@ class UpdateTodoRequest extends FormRequest
     public function rules()
     {
         return [
-            'content' => 'required',
+            'content' => 'required|max:20',
         ];
     }
 
@@ -26,6 +26,7 @@ class UpdateTodoRequest extends FormRequest
     {
         return [
             'content.required' => 'タスクを入力してください。',
+            'content.max' => '20文字以内で入力してください。',
         ];
     }
 }
